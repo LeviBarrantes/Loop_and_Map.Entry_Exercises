@@ -15,7 +15,7 @@ public class DealerShop {
         car.put("Ford", new ArrayList<String>(Arrays.asList("F150 2020", " Ranger 2019 ")));
         car.put("Mercedes Benz", new ArrayList<String>(Arrays.asList(" CLA 2011","CS 2009","S 2008")));
 
-        System.out.println("Enter a car name: ");
+        System.out.println("Enter a car Make:");
 
         Scanner sc = new Scanner(System.in);
 
@@ -23,7 +23,7 @@ public class DealerShop {
 
 
         if(car.containsKey(input)) {
-            System.out.println("Oh, you're looking for a " + input + "?" + " Our Honda selection is right over here...");
+            System.out.println("Oh, you're looking for a " + input + "?" + " Our selection is right over here...");
 
 
             ArrayList<String> list = car.get(input);
